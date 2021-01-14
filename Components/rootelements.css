@@ -1,0 +1,57 @@
+:root {
+  --primary: rgb(23, 209, 209);
+  --secondary: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1600px;
+  padding: 0 6rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary);
+  transition: 0.3s ease-out;
+}
+
+a:hover {
+  color: var(--primary);
+}
+
+button,
+.button1 {
+  padding: 0.5rem;
+  border: 1px solid var(--secondary);
+  border-radius: 3px;
+  margin-left: 1rem;
+  min-width: 70px;
+  background-color: white;
+  font-weight: 700;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  outline: none;
+}
+
+.button1:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+.button2 {
+  background-color: var(--secondary);
+  color: white;
+  transition: 0.3s ease-out;
+}
+
+.button2:hover {
+  color: var(--primary);
+}

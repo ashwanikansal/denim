@@ -1,0 +1,116 @@
+@media screen and (max-width: 1100px) {
+  .container {
+    padding: 0 4rem;
+  }
+
+  button {
+    margin-left: 0.8rem;
+  }
+
+  .nav-content ul > li {
+    margin: 0 1.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* .container {
+    background-color: red;
+  } */
+
+  nav .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-content {
+    position: relative;
+  }
+
+  .nav-content ul {
+    border-top: 1px solid black;
+    height: calc(100vh - 110px);
+    width: 100%;
+    top: 45px;
+    left: 100%;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    transition: 0.3s ease-out;
+  }
+
+  .nav-content .navlinks.show {
+    left: 0;
+  }
+
+  .nav-content .register {
+    border-top: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    left: -100%;
+    padding: 1rem;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    transition: 0.3s ease-out;
+  }
+
+  .nav-content .register.show {
+    left: 0;
+  }
+
+  .hometext h3 {
+    padding: 0 0.5rem;
+  }
+
+  .hometext h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin: 0.6rem 0 1rem 0;
+  }
+
+  .hometext .button2 {
+    padding: 0.8rem;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    padding: 0 1rem;
+  }
+  .home-content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hometext {
+    padding: 0;
+  }
+
+  .hometext h1 {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    margin: 0.2rem 0 0.6rem 0;
+  }
+
+  .hometext .button2 {
+    padding: 0.5rem;
+    margin: 0.6rem 0;
+  }
+
+  .home-slider {
+    justify-content: flex-end;
+  }
+
+  .home-content .images {
+    min-width: 40vw;
+    height: 40vh;
+    position: relative;
+  }
+
+  .home-content .buttons .up,
+  .home-content .buttons .down {
+    margin: 0 0 1rem 2rem;
+  }
+}
