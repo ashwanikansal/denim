@@ -14,12 +14,16 @@
   .services-content {
     padding: 3rem 1rem;
   }
+
+  .acc-container {
+    gap: 2rem 2rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  /* .container {
-    background-color: red;
-  } */
+  h1 {
+    font-size: 1.6rem;
+  }
 
   nav .burger {
     display: block;
@@ -107,12 +111,26 @@
     height: 50vh;
     align-self: flex-end;
   }
+
+  .acc-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .container {
     padding: 0 1rem;
   }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
   .home-content {
     flex-direction: column;
     justify-content: center;

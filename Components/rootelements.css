@@ -48,6 +48,7 @@ button,
 }
 
 .button2 {
+  cursor: pointer;
   background-color: var(--secondary);
   color: white;
   transition: 0.3s ease-out;
@@ -64,4 +65,14 @@ i {
 
 i:hover {
   color: var(--primary);
+}
+
+p {
+  color: var(--ternary);
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 400;
 }

@@ -55,6 +55,8 @@ const services = () => {
     const service = document.querySelector('#services .services-content');
     const trending = document.querySelector('.trending .trending-content');
     const women = document.querySelector('.women .women-content');
+    const faq = document.querySelector('.faq-content');
+    const subscribe = document.querySelector('.subscribe-content');
     
     
     window.addEventListener('scroll', () => {
@@ -68,7 +70,32 @@ const services = () => {
         if (y > women.offsetTop/1.3){
             women.classList.add('appear');
         }
+        if (y > faq.offsetTop/1.2){
+            faq.classList.add('appear');
+        }
+        if (y > subscribe.offsetTop/1.2){
+            subscribe.classList.add('appear');
+        }
+
         
+    })
+}
+
+const faq = () => {
+    const accbtns = document.querySelectorAll('.accbtn');
+    accbtns.forEach(accbtn => {
+        accbtn.addEventListener('click', () => {
+
+            accbtn.classList.toggle('active');
+            const paragraph = accbtn.nextElementSibling;
+            if(paragraph.style.maxHeight){
+                paragraph.style.maxHeight = null;
+            }
+            else{
+                paragraph.style.maxHeight = paragraph.scrollHeight + 'px';
+            }
+            
+        })
     })
 }
 
@@ -77,6 +104,7 @@ const services = () => {
 navbar();
 home();
 services();
+faq();
 
 
 

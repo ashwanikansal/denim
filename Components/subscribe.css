@@ -1,0 +1,27 @@
+.subscribe-content {
+  margin: 3rem 0;
+  text-align: center;
+  transform: translateY(2rem);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.subscribe-content.appear {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.subscribe-content p {
+  margin: 1rem 0 3rem 0;
+}
+
+.subscribe-content form {
+  padding: 1rem;
+}
+
+.subscribe-content input {
+  margin: 1rem;
+  padding: 1rem 3rem;
+  outline: none;
+  border: 1px solid var(--secondary);
+}
