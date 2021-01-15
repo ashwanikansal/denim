@@ -17,10 +17,11 @@
 }
 
 .hometext h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Bodoni Moda", serif;
   font-size: 3rem;
   line-height: 3.5rem;
   margin: 2rem 0;
+  font-weight: 500;
 }
 
 .hometext .button2 {

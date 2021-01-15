@@ -27,7 +27,10 @@
 
 .trending-text h1,
 .women-text h1 {
+  font-size: 2rem;
   margin: 2rem 0;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 400;
 }
 
 .trending-text p,
