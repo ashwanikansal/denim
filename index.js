@@ -54,6 +54,7 @@ const home = () => {
 const services = () => {
     const service = document.querySelector('#services .services-content');
     const trending = document.querySelector('.trending .trending-content');
+    const women = document.querySelector('.women .women-content');
     
     
     window.addEventListener('scroll', () => {
@@ -64,6 +65,10 @@ const services = () => {
         if (y > trending.offsetTop/1.6){
             trending.classList.add('appear');
         }
+        if (y > women.offsetTop/1.3){
+            women.classList.add('appear');
+        }
+        
     })
 }
 
