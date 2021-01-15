@@ -79,21 +79,21 @@
 }
 
 .trending-images .img1 {
-  background-image: url("../images/slide1.jpeg");
+  background-image: url("../images/t1.jpg");
 }
 
 .trending-images .img2 {
-  background-image: url("../images/slide2.jpeg");
+  background-image: url("../images/t2.jpg");
 }
 .trending-images .img3 {
-  background-image: url("../images/slide3.jpeg");
+  background-image: url("../images/t3.jpg");
 }
 .trending-images .img4 {
-  background-image: url("../images/slide4.jpeg");
+  background-image: url("../images/t4.jpg");
 }
 
 .women-images .img1 {
-  background-image: url("../images/slide1.jpeg");
+  background-image: url("../images/w1.jpg");
 }
 
 .women-images .img2,
@@ -110,5 +110,5 @@
 }
 
 .women-images .img4 {
-  background-image: url("../images/slide4.jpeg");
+  background-image: url("../images/w2.jpg");
 }
