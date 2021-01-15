@@ -1,6 +1,7 @@
 :root {
   --primary: rgb(23, 209, 209);
   --secondary: black;
+  --ternary: rgb(80, 80, 80);
 }
 
 * {
@@ -18,7 +19,7 @@
 
 a {
   text-decoration: none;
-  color: var(--secondary);
+  color: var(--ternary);
   transition: 0.3s ease-out;
 }
 
@@ -53,5 +54,14 @@ button,
 }
 
 .button2:hover {
+  color: var(--primary);
+}
+
+i {
+  color: var(--secondary);
+  transition: 0.3s ease-out;
+}
+
+i:hover {
   color: var(--primary);
 }

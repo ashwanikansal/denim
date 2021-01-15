@@ -94,7 +94,12 @@
   border: 0;
 }
 
-.home-content .buttons .up:hover,
-.home-content .buttons .down:hover {
+.home-content .buttons .up i,
+.home-content .buttons .down i {
+  color: var(--ternary);
+}
+
+.home-content .buttons .up i:hover,
+.home-content .buttons .down i:hover {
   color: var(--primary);
 }

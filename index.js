@@ -1,4 +1,5 @@
 const navbar = () => {
+    const nav = document.querySelector('nav');
     const burger = document.querySelector('.burger');
     const navlinks = document.querySelector('.navlinks');
     const register = document.querySelector('.register');
@@ -11,6 +12,13 @@ const navbar = () => {
         line1.classList.toggle('rotate');
         line2.classList.toggle('rotate');
     })
+
+    window.addEventListener('scroll', () => {
+        nav.classList.add('sticky');
+        setTimeout( () => {
+            nav.classList.remove('sticky');
+        }, 2000);
+    });
 }
 
 const home = () => {
@@ -43,8 +51,28 @@ const home = () => {
 }
 
 
+const services = () => {
+    const service = document.querySelector('#services .services-content');
+    const trending = document.querySelector('.trending .trending-content');
+    
+    
+    window.addEventListener('scroll', () => {
+        const y = window.scrollY;
+        if (y > service.offsetTop/3) {
+            service.classList.add('appear');
+        }
+        if (y > trending.offsetTop/1.6){
+            trending.classList.add('appear');
+        }
+    })
+}
+
+
+
 navbar();
 home();
+services();
+
 
 
 

@@ -1,0 +1,35 @@
+.services-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem 3rem;
+  transform: translateY(2rem);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.services-content.appear {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.service {
+  text-align: center;
+  margin: 0 0.8rem;
+  max-width: 195px;
+}
+
+.service i {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.service h3 {
+  padding-bottom: 1.5rem;
+}
+
+.service p {
+  text-align: center;
+  color: var(--ternary);
+  padding-bottom: 1.5rem;
+}

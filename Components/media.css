@@ -10,6 +10,10 @@
   .nav-content ul > li {
     margin: 0 1.4rem;
   }
+
+  .services-content {
+    padding: 3rem 1rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -74,6 +78,35 @@
     padding: 0.8rem;
     margin: 1rem 0;
   }
+
+  .services-content {
+    flex-direction: column;
+  }
+
+  .service {
+    max-width: 80vw;
+    margin: 1rem 0.8rem;
+  }
+
+  .trending-content,
+  .women-content {
+    flex-direction: column;
+  }
+
+  .trending-text,
+  .women-text {
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .trending-images,
+  .women-images {
+    margin-right: 0;
+    width: 70%;
+    height: 50vh;
+    align-self: flex-end;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -112,5 +145,10 @@
   .home-content .buttons .up,
   .home-content .buttons .down {
     margin: 0 0 1rem 2rem;
+  }
+
+  .trending-images,
+  .women-images {
+    width: 80%;
   }
 }
