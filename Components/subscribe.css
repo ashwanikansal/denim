@@ -20,6 +20,7 @@
 }
 
 .subscribe-content input {
+  text-align: center;
   margin: 1rem;
   padding: 1rem 3rem;
   outline: none;

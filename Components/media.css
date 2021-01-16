@@ -116,6 +116,16 @@
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+
+  footer .contentone {
+    gap: 0.8rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  footer .footerbox {
+    justify-self: center;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -137,6 +147,7 @@
   }
   .hometext {
     padding: 0;
+    margin-bottom: 2rem;
   }
 
   .hometext h1 {
@@ -168,5 +179,14 @@
   .trending-images,
   .women-images {
     width: 80%;
+  }
+
+  footer .contentone {
+    gap: 2rem 0;
+    grid-template-columns: 1fr;
+  }
+
+  footer h4 {
+    margin-bottom: 0.8rem;
   }
 }

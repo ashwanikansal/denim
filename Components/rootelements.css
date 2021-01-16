@@ -76,3 +76,7 @@ h1 {
   font-family: "Bodoni Moda", serif;
   font-weight: 500;
 }
+
+ul {
+  list-style: none;
+}

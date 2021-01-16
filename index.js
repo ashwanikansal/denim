@@ -57,6 +57,8 @@ const services = () => {
     const women = document.querySelector('.women .women-content');
     const faq = document.querySelector('.faq-content');
     const subscribe = document.querySelector('.subscribe-content');
+
+    const footer = document.querySelector('footer');
     
     
     window.addEventListener('scroll', () => {
@@ -75,6 +77,9 @@ const services = () => {
         }
         if (y > subscribe.offsetTop/1.2){
             subscribe.classList.add('appear');
+        }
+        if (y > footer.offsetTop/1.1){
+            footer.classList.add('appear');
         }
 
         

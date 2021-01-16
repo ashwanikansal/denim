@@ -1,0 +1,55 @@
+footer {
+  background-color: var(--secondary);
+  color: white;
+  line-height: 2rem;
+  transform: translateY(2rem);
+  transition: all 1s ease;
+}
+
+footer.appear {
+  transform: translateY(0);
+}
+
+footer i {
+  color: white;
+}
+
+footer .logo {
+  font-family: "Playfair Display", serif;
+}
+
+footer h4,
+footer i,
+footer p {
+  cursor: pointer;
+}
+
+footer .contentone {
+  padding: 3rem 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer .footerbox {
+  max-width: 150px;
+}
+
+footer h4 {
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+}
+
+footer .address {
+  margin-bottom: 1rem;
+}
+
+footer .smedia i {
+  font-size: 1.3rem;
+  margin-right: 0.5rem;
+}
+
+footer .copyright {
+  padding: 0.5rem 0;
+  text-align: center;
+}
