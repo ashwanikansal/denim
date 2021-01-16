@@ -4,7 +4,6 @@ footer {
   line-height: 2rem;
   transform: translateY(2rem);
   transition: all 1s ease;
-  width: 100%;
 }
 
 footer.appear {
